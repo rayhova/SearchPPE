@@ -1,0 +1,24 @@
+.fs-wrap,
+.fs-dropdown {
+    width: 300px;
+}
+
+.upt-response {
+    display: none;
+}
+
+.upt-response.visible {
+    display: block;
+}
+
+.upt-reset {
+    display: inline-block;
+    cursor: pointer;
+    line-height: 28px;
+    margin-left: 20px;
+    color: red;
+}
+
+body.settings_page_upt .button {
+    vertical-align: top;
+}

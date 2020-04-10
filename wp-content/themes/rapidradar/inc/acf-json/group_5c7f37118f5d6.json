@@ -1,0 +1,43 @@
+{
+    "key": "group_5c7f37118f5d6",
+    "title": "Custom CSS",
+    "fields": [
+        {
+            "key": "field_5c7f371cdbc9b",
+            "label": "Custom CSS Code",
+            "name": "custom_css_code",
+            "type": "textarea",
+            "instructions": "Code in this box will overwrite any other styles",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "!=",
+                "value": "empty.php"
+            }
+        ]
+    ],
+    "menu_order": 1,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1551841208
+}

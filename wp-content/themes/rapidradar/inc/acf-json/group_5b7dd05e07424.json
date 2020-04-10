@@ -1,0 +1,78 @@
+{
+    "key": "group_5b7dd05e07424",
+    "title": "Alert Bar",
+    "fields": [
+        {
+            "key": "field_5b7dd07335ec9",
+            "label": "Alert On",
+            "name": "alert_on",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "Alert On",
+            "ui_off_text": "Off"
+        },
+        {
+            "key": "field_5b7dd09335eca",
+            "label": "Alert Text",
+            "name": "alert_text",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5b7dd09b35ecb",
+            "label": "Alert URL",
+            "name": "alert_url",
+            "type": "url",
+            "instructions": "This is optional. By placing text here it makes the Alert text a hyperlink.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "home-page.php"
+            }
+        ]
+    ],
+    "menu_order": 5,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1534973790
+}

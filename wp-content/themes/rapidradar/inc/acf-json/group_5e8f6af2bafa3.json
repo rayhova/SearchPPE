@@ -1,0 +1,439 @@
+{
+    "key": "group_5e8f6af2bafa3",
+    "title": "Edit Seller User Profile Fields",
+    "fields": [
+        {
+            "key": "field_5e8f6af2e40c9",
+            "label": "Tier",
+            "name": "tier",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "traditional_medical": "Traditional Medical Supplier of PPE",
+                "converted_manufacturer": "Converted Manufacturer of PPE",
+                "third_party_donations": "3rd Party Coordinating Donations"
+            },
+            "default_value": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_5e8f6af2e4120",
+            "label": "Street Address",
+            "name": "street_address",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5e9006255510c",
+            "label": "Street Address 2",
+            "name": "street_address_2",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5e9006295510d",
+            "label": "City",
+            "name": "city",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5e90062d5510e",
+            "label": "State",
+            "name": "state",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Alabama": "Alabama",
+                "Alaska": "Alaska",
+                "Arizona": "Arizona",
+                "Arkansas": "Arkansas",
+                "California": "California",
+                "Colorado": "Colorado",
+                "Connecticut": "Connecticut",
+                "Delaware": "Delaware",
+                "Florida": "Florida",
+                "Georgia": "Georgia",
+                "Hawaii": "Hawaii",
+                "Idaho": "Idaho",
+                "Illinois": "Illinois",
+                "Indiana": "Indiana",
+                "Iowa": "Iowa",
+                "Kansas": "Kansas",
+                "Kentucky": "Kentucky",
+                "Louisiana": "Louisiana",
+                "Maine": "Maine",
+                "Maryland": "Maryland",
+                "Massachusetts": "Massachusetts",
+                "Michigan": "Michigan",
+                "Minnesota": "Minnesota",
+                "Mississippi": "Mississippi",
+                "Missouri": "Missouri",
+                "Montana": "Montana",
+                "Nebraska": "Nebraska",
+                "Nevada": "Nevada",
+                "New Hampshire": "New Hampshire",
+                "New Jersey": "New Jersey",
+                "New Mexico": "New Mexico",
+                "New York": "New York",
+                "North Carolina": "North Carolina",
+                "North Dakota": "North Dakota",
+                "Ohio": "Ohio",
+                "Oklahoma": "Oklahoma",
+                "Oregon": "Oregon",
+                "Pennsylvania": "Pennsylvania",
+                "Rhode Island": "Rhode Island",
+                "South Carolina": "South Carolina",
+                "South Dakota": "South Dakota",
+                "Tennessee": "Tennessee",
+                "Texas": "Texas",
+                "Utah": "Utah",
+                "Vermont": "Vermont",
+                "Virginia": "Virginia",
+                "Washington": "Washington",
+                "West Virginia": "West Virginia",
+                "Wisconsin": "Wisconsin",
+                "Wyoming": "Wyoming"
+            },
+            "default_value": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_5e9006315510f",
+            "label": "Zip Code",
+            "name": "zip_code",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5e8f6af339eeb",
+            "label": "Quantity Available Min",
+            "name": "quantity_available_min",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_5e8f6af34102a",
+            "label": "Quantity Available Max",
+            "name": "quantity_available_max",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_5e8f6af349ace",
+            "label": "Shipping Options",
+            "name": "shipping_options",
+            "type": "checkbox",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Pickup Available": "Pickup Available",
+                "Delivery Available": "Delivery Available",
+                "USPS Shipping Available": "USPS Shipping Available",
+                "Parcel Shipping Available": "Parcel Shipping Available"
+            },
+            "allow_custom": 0,
+            "default_value": [],
+            "layout": "vertical",
+            "toggle": 0,
+            "return_format": "value",
+            "save_custom": 0
+        },
+        {
+            "key": "field_5e8f6af350db4",
+            "label": "Payment Options",
+            "name": "payment_options",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Order Through Website": "Order Through Website"
+            },
+            "default_value": [],
+            "allow_null": 0,
+            "multiple": 1,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_5e8f6af35f61c",
+            "label": "Contact Person",
+            "name": "contact_person",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5e901c0240389",
+            "label": "Contact Email",
+            "name": "contact_email",
+            "type": "email",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_5e8f9a744310e",
+            "label": "Product 1",
+            "name": "product_1",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "n95mask": "N95 mask",
+                "non_certified_mask": "Non Certified Face Mask",
+                "hand_sanitizer": "Hand Sanitizer",
+                "cloth_gowns": "Cloth Gowns",
+                "goggles": "Goggles",
+                "bonnets": "Bonnets",
+                "gloves": "Gloves"
+            },
+            "default_value": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "label",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_5e8f9b384310f",
+            "label": "Product 2",
+            "name": "product_2",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "n95mask": "N95 mask",
+                "non_certified_mask": "Non Certified Face Mask",
+                "hand_sanitizer": "Hand Sanitizer",
+                "cloth_gowns": "Cloth Gowns",
+                "goggles": "Goggles",
+                "bonnets": "Bonnets",
+                "gloves": "Gloves"
+            },
+            "default_value": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "label",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_5e8f9b3a43110",
+            "label": "Product 3",
+            "name": "product_3",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "n95mask": "N95 mask",
+                "non_certified_mask": "Non Certified Face Mask",
+                "hand_sanitizer": "Hand Sanitizer",
+                "cloth_gowns": "Cloth Gowns",
+                "goggles": "Goggles",
+                "bonnets": "Bonnets",
+                "gloves": "Gloves"
+            },
+            "default_value": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "label",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_5e90135601d54",
+            "label": "Purchasing Website",
+            "name": "purchasing_website",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "user_form",
+                "operator": "==",
+                "value": "all"
+            },
+            {
+                "param": "current_user_role",
+                "operator": "==",
+                "value": "supplier"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1586502679
+}

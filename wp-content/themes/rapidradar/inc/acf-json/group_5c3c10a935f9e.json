@@ -1,0 +1,173 @@
+{
+    "key": "group_5c3c10a935f9e",
+    "title": "Social Media",
+    "fields": [
+        {
+            "key": "field_5c3c945b58ef1",
+            "label": "Social Media",
+            "name": "social_media",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "5c3c965dc5b11": {
+                    "key": "5c3c965dc5b11",
+                    "name": "facebook",
+                    "label": "Facebook",
+                    "display": "row",
+                    "sub_fields": [
+                        {
+                            "key": "field_5c3c9663a0546",
+                            "label": "Facebook Link",
+                            "name": "facebook_link",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_5c3c9690a0547": {
+                    "key": "layout_5c3c9690a0547",
+                    "name": "twitter",
+                    "label": "Twitter",
+                    "display": "row",
+                    "sub_fields": [
+                        {
+                            "key": "field_5c3c9690a0548",
+                            "label": "Twitter Link",
+                            "name": "twitter_link",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_5c3c97890a18f": {
+                    "key": "layout_5c3c97890a18f",
+                    "name": "instagram",
+                    "label": "Instagram",
+                    "display": "row",
+                    "sub_fields": [
+                        {
+                            "key": "field_5c3c97890a190",
+                            "label": "Instagram Link",
+                            "name": "instagram_link",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_5c3c97a00a191": {
+                    "key": "layout_5c3c97a00a191",
+                    "name": "youtube",
+                    "label": "YouTube",
+                    "display": "row",
+                    "sub_fields": [
+                        {
+                            "key": "field_5c3c97a00a192",
+                            "label": "YouTube Link",
+                            "name": "youtube_link",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_5c3c97c30a193": {
+                    "key": "layout_5c3c97c30a193",
+                    "name": "linkedin",
+                    "label": "Linkedin",
+                    "display": "row",
+                    "sub_fields": [
+                        {
+                            "key": "field_5c3c97c30a194",
+                            "label": "Linkedin Link",
+                            "name": "linkedin_link",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Social Media",
+            "min": 0,
+            "max": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-footer-options"
+            }
+        ]
+    ],
+    "menu_order": 1,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1547478270
+}

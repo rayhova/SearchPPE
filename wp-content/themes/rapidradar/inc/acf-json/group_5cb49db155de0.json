@@ -1,0 +1,76 @@
+{
+    "key": "group_5cb49db155de0",
+    "title": "Spacer",
+    "fields": [
+        {
+            "key": "field_5cb49dc3dd6d2",
+            "label": "Spacer",
+            "name": "spacer",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "Add Space",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5cb49dd3dd6d3",
+            "label": "Space Size Multiplier",
+            "name": "space_size",
+            "type": "range",
+            "instructions": "Default space size is 20px.\r\n(This number is the multiplier)",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5cb49dc3dd6d2",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 1,
+            "min": 1,
+            "max": 3,
+            "step": "",
+            "prepend": "",
+            "append": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "current_user",
+                "operator": "==",
+                "value": "logged_in"
+            },
+            {
+                "param": "current_user",
+                "operator": "!=",
+                "value": "logged_in"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1555357687
+}
