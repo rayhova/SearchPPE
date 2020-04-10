@@ -145,3 +145,14 @@ $value = strtolower( $value );
  
 return $value;
 }, 10, 5 );
+
+
+function my_facetwp_index_row( $params, $class ) {
+    $name = $params['facet_name'];
+    if ( 'products_2' == $name || 'products_3' == $name ) {
+        $params['facet_name'] = 'products';
+    }
+    return $params;
+}
+
+add_filter( 'facetwp_index_row', 'my_facetwp_index_row', 10, 2 );
