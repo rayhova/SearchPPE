@@ -22,7 +22,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 					<img src="<?php echo $radius_logo['url']; ?>" alt="<?php echo $radius_logo['alt']; ?>" class="radius-logo" />
 				<?php } ?>
 			</div>
-			<div class="col-md-9"><p><?php the_field( 'disclaimer', 'option' ); ?></p></div>
+			<div class="col-md-9">
+				<div class="disclaimer"><?php the_field( 'disclaimer', 'option' ); ?></div>
+			</div>
 		</div>
 	</div>
 </div>
