@@ -126,7 +126,7 @@ nav#main-nav {
     .active{
     	.nav-link{
     		color: #000;
-    		border: 1px solid $lightgray;
+    		border: 1px solid #ccc;
     		border-bottom: none;
     		border-top-left-radius: 3px;
     		border-top-right-radius: 3px;
@@ -138,7 +138,7 @@ nav#main-nav {
     }
     .nav-link{
     	color: $lightblue;
-    	border-bottom: 1px solid $lightgray;
+    	border-bottom: 1px solid #ccc;
     	@include bp(md){
     	color: $primary;
     	border-bottom: none;
@@ -147,7 +147,7 @@ nav#main-nav {
     	}
     	&:hover{
     		color: #000;
-		    border: 1px solid $lightgray;
+		    border: 1px solid #ccc;
     		border-bottom: none;
     		border-top-left-radius: 3px;
     		border-top-right-radius: 3px;
